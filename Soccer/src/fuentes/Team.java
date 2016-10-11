@@ -1,6 +1,4 @@
-
 package fuentes;
-
 import java.util.ArrayList;
 
 public class Team {
@@ -19,4 +17,21 @@ public class Team {
                 System.out.println("Player: "+team.get(i));
         }
     }
+    
+    public void serchbyName(String name){
+        for (int i = 0; i < team.size(); i++) {
+            if(name.equals(team.get(i).getName())){
+                System.out.println("\nPlayer: "+team.get(i));
+            }
+            
+        }
+    }
+    
+    public void serchbyNationality(String nationality){
+        for (int i = 0; i < team.size(); i++) {
+            if(nationality.equals(team.get(i).getNationality())){
+            System.out.println("\nPlayer: "+team.get(i));
+            }
+        }    
+    }   
 }
