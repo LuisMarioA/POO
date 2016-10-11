@@ -1,6 +1,4 @@
-
 package test;
-
 import fuentes.SoccerPlayer;
 import fuentes.Team;
 
@@ -14,5 +12,7 @@ public class TestTeam {
         bestOfWorld.getTeam().add(sp1);
         bestOfWorld.getTeam().add(sp2);
         bestOfWorld.searchByPosition("Forward");
+        bestOfWorld.searchByName("Chichadios");
+        bestOfWorld.searchByNationality("Brazilian");
     }
 }
