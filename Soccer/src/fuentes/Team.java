@@ -18,7 +18,7 @@ public class Team {
         }
     }
     
-    public void serchbyName(String name){
+    public void searchByName(String name){
         for (int i = 0; i < team.size(); i++) {
             if(name.equals(team.get(i).getName())){
                 System.out.println("\nPlayer: "+team.get(i));
@@ -27,7 +27,7 @@ public class Team {
         }
     }
     
-    public void serchbyNationality(String nationality){
+    public void searchByNationality(String nationality){
         for (int i = 0; i < team.size(); i++) {
             if(nationality.equals(team.get(i).getNationality())){
             System.out.println("\nPlayer: "+team.get(i));
